@@ -1,0 +1,5231 @@
+{
+  "schemaVersion": 1,
+  "period": "2026-09",
+  "source": "synthetic",
+  "destination": "offline simulator",
+  "batchSize": 25,
+  "phases": [
+    "Extrair",
+    "Validar",
+    "Transformar",
+    "Enviar lote simulado",
+    "Conciliar"
+  ],
+  "metrics": {
+    "extracted": 238,
+    "completed": 223,
+    "errors": 15,
+    "validated": 232,
+    "batches": 10
+  },
+  "byEntity": [
+    {
+      "entity": "Servidor",
+      "extracted": 48,
+      "completed": 45,
+      "errors": 3
+    },
+    {
+      "entity": "Vínculo",
+      "extracted": 52,
+      "completed": 49,
+      "errors": 3
+    },
+    {
+      "entity": "Rubrica",
+      "extracted": 18,
+      "completed": 18,
+      "errors": 0
+    },
+    {
+      "entity": "Lançamento",
+      "extracted": 120,
+      "completed": 111,
+      "errors": 9
+    }
+  ],
+  "control": [
+    {
+      "sourceKey": "SER-0001",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0001",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-001"
+      }
+    },
+    {
+      "sourceKey": "SER-0002",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0002",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-002"
+      }
+    },
+    {
+      "sourceKey": "SER-0003",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0003",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-003"
+      }
+    },
+    {
+      "sourceKey": "SER-0004",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0004",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-004"
+      }
+    },
+    {
+      "sourceKey": "SER-0005",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0005",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-005"
+      }
+    },
+    {
+      "sourceKey": "SER-0006",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0006",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-006"
+      }
+    },
+    {
+      "sourceKey": "SER-0007",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0007",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-007"
+      }
+    },
+    {
+      "sourceKey": "SER-0008",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0008",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-008"
+      }
+    },
+    {
+      "sourceKey": "SER-0009",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0009",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-009"
+      }
+    },
+    {
+      "sourceKey": "SER-0010",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0010",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-010"
+      }
+    },
+    {
+      "sourceKey": "SER-0011",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0011",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-011"
+      }
+    },
+    {
+      "sourceKey": "SER-0012",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0012",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-012"
+      }
+    },
+    {
+      "sourceKey": "SER-0013",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0013",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-013"
+      }
+    },
+    {
+      "sourceKey": "SER-0014",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0014",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-014"
+      }
+    },
+    {
+      "sourceKey": "SER-0015",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0015",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-015"
+      }
+    },
+    {
+      "sourceKey": "SER-0016",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0016",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-016"
+      }
+    },
+    {
+      "sourceKey": "SER-0017",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0017",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-017"
+      }
+    },
+    {
+      "sourceKey": "SER-0018",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0018",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-018"
+      }
+    },
+    {
+      "sourceKey": "SER-0019",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0019",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-019"
+      }
+    },
+    {
+      "sourceKey": "SER-0020",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0020",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-020"
+      }
+    },
+    {
+      "sourceKey": "SER-0021",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0021",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-021"
+      }
+    },
+    {
+      "sourceKey": "SER-0022",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0022",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-022"
+      }
+    },
+    {
+      "sourceKey": "SER-0023",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "SER-0023",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-023"
+      }
+    },
+    {
+      "sourceKey": "SER-0024",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0024",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-024"
+      }
+    },
+    {
+      "sourceKey": "SER-0025",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0025",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-025"
+      }
+    },
+    {
+      "sourceKey": "SER-0026",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0026",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-026"
+      }
+    },
+    {
+      "sourceKey": "SER-0027",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0027",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-027"
+      }
+    },
+    {
+      "sourceKey": "SER-0028",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0028",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-028"
+      }
+    },
+    {
+      "sourceKey": "SER-0029",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "ERRO"
+      ],
+      "message": "Código obrigatório ausente na origem fictícia",
+      "payload": null
+    },
+    {
+      "sourceKey": "SER-0030",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0030",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-030"
+      }
+    },
+    {
+      "sourceKey": "SER-0031",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0031",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-031"
+      }
+    },
+    {
+      "sourceKey": "SER-0032",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0032",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-032"
+      }
+    },
+    {
+      "sourceKey": "SER-0033",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0033",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-033"
+      }
+    },
+    {
+      "sourceKey": "SER-0034",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0034",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-034"
+      }
+    },
+    {
+      "sourceKey": "SER-0035",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0035",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-035"
+      }
+    },
+    {
+      "sourceKey": "SER-0036",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0036",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-036"
+      }
+    },
+    {
+      "sourceKey": "SER-0037",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0037",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-037"
+      }
+    },
+    {
+      "sourceKey": "SER-0038",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0038",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-038"
+      }
+    },
+    {
+      "sourceKey": "SER-0039",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0039",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-039"
+      }
+    },
+    {
+      "sourceKey": "SER-0040",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0040",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-040"
+      }
+    },
+    {
+      "sourceKey": "SER-0041",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0041",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-041"
+      }
+    },
+    {
+      "sourceKey": "SER-0042",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0042",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-042"
+      }
+    },
+    {
+      "sourceKey": "SER-0043",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0043",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-043"
+      }
+    },
+    {
+      "sourceKey": "SER-0044",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0044",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-044"
+      }
+    },
+    {
+      "sourceKey": "SER-0045",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0045",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-045"
+      }
+    },
+    {
+      "sourceKey": "SER-0046",
+      "entity": "Servidor",
+      "unit": "Unidade Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "SER-0046",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-046"
+      }
+    },
+    {
+      "sourceKey": "SER-0047",
+      "entity": "Servidor",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0047",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-047"
+      }
+    },
+    {
+      "sourceKey": "SER-0048",
+      "entity": "Servidor",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "SER-0048",
+        "category": "Servidor",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-048"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0001",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0001",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-001"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0002",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0002",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-002"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0003",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0003",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-003"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0004",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0004",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-004"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0005",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0005",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-005"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0006",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0006",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-006"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0007",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0007",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-007"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0008",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0008",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-008"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0009",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0009",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-009"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0010",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0010",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-010"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0011",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0011",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-011"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0012",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0012",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-012"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0013",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0013",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-013"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0014",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0014",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-014"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0015",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0015",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-015"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0016",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0016",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-016"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0017",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0017",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-017"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0018",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0018",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-018"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0019",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0019",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-019"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0020",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0020",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-020"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0021",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0021",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-021"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0022",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0022",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-022"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0023",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "VÍN-0023",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-023"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0024",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0024",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-024"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0025",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0025",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-025"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0026",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0026",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-026"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0027",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0027",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-027"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0028",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0028",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-028"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0029",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "ERRO"
+      ],
+      "message": "Código obrigatório ausente na origem fictícia",
+      "payload": null
+    },
+    {
+      "sourceKey": "VÍN-0030",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0030",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-030"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0031",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0031",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-031"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0032",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0032",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-032"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0033",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0033",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-033"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0034",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0034",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-034"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0035",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0035",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-035"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0036",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0036",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-036"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0037",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0037",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-037"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0038",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0038",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-038"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0039",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0039",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-039"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0040",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0040",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-040"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0041",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0041",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-041"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0042",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0042",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-042"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0043",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0043",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-043"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0044",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0044",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-044"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0045",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0045",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-045"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0046",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "VÍN-0046",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-046"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0047",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0047",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-047"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0048",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0048",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-048"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0049",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0049",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-049"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0050",
+      "entity": "Vínculo",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0050",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-050"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0051",
+      "entity": "Vínculo",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0051",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-051"
+      }
+    },
+    {
+      "sourceKey": "VÍN-0052",
+      "entity": "Vínculo",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "VÍN-0052",
+        "category": "Vínculo",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-052"
+      }
+    },
+    {
+      "sourceKey": "RUB-0001",
+      "entity": "Rubrica",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0001",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-001"
+      }
+    },
+    {
+      "sourceKey": "RUB-0002",
+      "entity": "Rubrica",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0002",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-002"
+      }
+    },
+    {
+      "sourceKey": "RUB-0003",
+      "entity": "Rubrica",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0003",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-003"
+      }
+    },
+    {
+      "sourceKey": "RUB-0004",
+      "entity": "Rubrica",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0004",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-004"
+      }
+    },
+    {
+      "sourceKey": "RUB-0005",
+      "entity": "Rubrica",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0005",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-005"
+      }
+    },
+    {
+      "sourceKey": "RUB-0006",
+      "entity": "Rubrica",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0006",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-006"
+      }
+    },
+    {
+      "sourceKey": "RUB-0007",
+      "entity": "Rubrica",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0007",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-007"
+      }
+    },
+    {
+      "sourceKey": "RUB-0008",
+      "entity": "Rubrica",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0008",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-008"
+      }
+    },
+    {
+      "sourceKey": "RUB-0009",
+      "entity": "Rubrica",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0009",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-009"
+      }
+    },
+    {
+      "sourceKey": "RUB-0010",
+      "entity": "Rubrica",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0010",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-010"
+      }
+    },
+    {
+      "sourceKey": "RUB-0011",
+      "entity": "Rubrica",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0011",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-011"
+      }
+    },
+    {
+      "sourceKey": "RUB-0012",
+      "entity": "Rubrica",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0012",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-012"
+      }
+    },
+    {
+      "sourceKey": "RUB-0013",
+      "entity": "Rubrica",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0013",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-013"
+      }
+    },
+    {
+      "sourceKey": "RUB-0014",
+      "entity": "Rubrica",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0014",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-014"
+      }
+    },
+    {
+      "sourceKey": "RUB-0015",
+      "entity": "Rubrica",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0015",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-015"
+      }
+    },
+    {
+      "sourceKey": "RUB-0016",
+      "entity": "Rubrica",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0016",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": null,
+        "code": "COD-016"
+      }
+    },
+    {
+      "sourceKey": "RUB-0017",
+      "entity": "Rubrica",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0017",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": null,
+        "code": "COD-017"
+      }
+    },
+    {
+      "sourceKey": "RUB-0018",
+      "entity": "Rubrica",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "RUB-0018",
+        "category": "Rubrica",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": null,
+        "code": "COD-018"
+      }
+    },
+    {
+      "sourceKey": "LAN-0001",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0001",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2083.84,
+        "code": "COD-001"
+      }
+    },
+    {
+      "sourceKey": "LAN-0002",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0002",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1320.12,
+        "code": "COD-002"
+      }
+    },
+    {
+      "sourceKey": "LAN-0003",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0003",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 918.32,
+        "code": "COD-003"
+      }
+    },
+    {
+      "sourceKey": "LAN-0004",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0004",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1058.94,
+        "code": "COD-004"
+      }
+    },
+    {
+      "sourceKey": "LAN-0005",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0005",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3677.79,
+        "code": "COD-005"
+      }
+    },
+    {
+      "sourceKey": "LAN-0006",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0006",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 2312.9,
+        "code": "COD-006"
+      }
+    },
+    {
+      "sourceKey": "LAN-0007",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0007",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1900.68,
+        "code": "COD-007"
+      }
+    },
+    {
+      "sourceKey": "LAN-0008",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0008",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3218.63,
+        "code": "COD-008"
+      }
+    },
+    {
+      "sourceKey": "LAN-0009",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0009",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 1517.65,
+        "code": "COD-009"
+      }
+    },
+    {
+      "sourceKey": "LAN-0010",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0010",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1374.94,
+        "code": "COD-010"
+      }
+    },
+    {
+      "sourceKey": "LAN-0011",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0011",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1211.6,
+        "code": "COD-011"
+      }
+    },
+    {
+      "sourceKey": "LAN-0012",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0012",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4864.93,
+        "code": "COD-012"
+      }
+    },
+    {
+      "sourceKey": "LAN-0013",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0013",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2305.03,
+        "code": "COD-013"
+      }
+    },
+    {
+      "sourceKey": "LAN-0014",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0014",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1527.21,
+        "code": "COD-014"
+      }
+    },
+    {
+      "sourceKey": "LAN-0015",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0015",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 2774.82,
+        "code": "COD-015"
+      }
+    },
+    {
+      "sourceKey": "LAN-0016",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0016",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 921.26,
+        "code": "COD-016"
+      }
+    },
+    {
+      "sourceKey": "LAN-0017",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0017",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 5407.67,
+        "code": "COD-017"
+      }
+    },
+    {
+      "sourceKey": "LAN-0018",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0018",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3028.36,
+        "code": "COD-018"
+      }
+    },
+    {
+      "sourceKey": "LAN-0019",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0019",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2551.63,
+        "code": "COD-019"
+      }
+    },
+    {
+      "sourceKey": "LAN-0020",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0020",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3552.84,
+        "code": "COD-020"
+      }
+    },
+    {
+      "sourceKey": "LAN-0021",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0021",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4878.6,
+        "code": "COD-021"
+      }
+    },
+    {
+      "sourceKey": "LAN-0022",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0022",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1189.05,
+        "code": "COD-022"
+      }
+    },
+    {
+      "sourceKey": "LAN-0023",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "LAN-0023",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4554.03,
+        "code": "COD-023"
+      }
+    },
+    {
+      "sourceKey": "LAN-0024",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0024",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 5325.47,
+        "code": "COD-024"
+      }
+    },
+    {
+      "sourceKey": "LAN-0025",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0025",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2024.12,
+        "code": "COD-025"
+      }
+    },
+    {
+      "sourceKey": "LAN-0026",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0026",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1297.97,
+        "code": "COD-026"
+      }
+    },
+    {
+      "sourceKey": "LAN-0027",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0027",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4851.71,
+        "code": "COD-027"
+      }
+    },
+    {
+      "sourceKey": "LAN-0028",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0028",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2627.58,
+        "code": "COD-028"
+      }
+    },
+    {
+      "sourceKey": "LAN-0029",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "ERRO"
+      ],
+      "message": "Código obrigatório ausente na origem fictícia",
+      "payload": null
+    },
+    {
+      "sourceKey": "LAN-0030",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0030",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3339.04,
+        "code": "COD-030"
+      }
+    },
+    {
+      "sourceKey": "LAN-0031",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0031",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1500.86,
+        "code": "COD-031"
+      }
+    },
+    {
+      "sourceKey": "LAN-0032",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0032",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4834.96,
+        "code": "COD-032"
+      }
+    },
+    {
+      "sourceKey": "LAN-0033",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0033",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4896.73,
+        "code": "COD-033"
+      }
+    },
+    {
+      "sourceKey": "LAN-0034",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0034",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3332.48,
+        "code": "COD-034"
+      }
+    },
+    {
+      "sourceKey": "LAN-0035",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0035",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3693.21,
+        "code": "COD-035"
+      }
+    },
+    {
+      "sourceKey": "LAN-0036",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0036",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 1049.59,
+        "code": "COD-036"
+      }
+    },
+    {
+      "sourceKey": "LAN-0037",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0037",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1606.09,
+        "code": "COD-037"
+      }
+    },
+    {
+      "sourceKey": "LAN-0038",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0038",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4341.82,
+        "code": "COD-038"
+      }
+    },
+    {
+      "sourceKey": "LAN-0039",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0039",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 1883.28,
+        "code": "COD-039"
+      }
+    },
+    {
+      "sourceKey": "LAN-0040",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0040",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2217.27,
+        "code": "COD-040"
+      }
+    },
+    {
+      "sourceKey": "LAN-0041",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0041",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3982.0,
+        "code": "COD-041"
+      }
+    },
+    {
+      "sourceKey": "LAN-0042",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0042",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 2905.61,
+        "code": "COD-042"
+      }
+    },
+    {
+      "sourceKey": "LAN-0043",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0043",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3670.93,
+        "code": "COD-043"
+      }
+    },
+    {
+      "sourceKey": "LAN-0044",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0044",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3122.08,
+        "code": "COD-044"
+      }
+    },
+    {
+      "sourceKey": "LAN-0045",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0045",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 2455.15,
+        "code": "COD-045"
+      }
+    },
+    {
+      "sourceKey": "LAN-0046",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "LAN-0046",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2592.84,
+        "code": "COD-046"
+      }
+    },
+    {
+      "sourceKey": "LAN-0047",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0047",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3118.16,
+        "code": "COD-047"
+      }
+    },
+    {
+      "sourceKey": "LAN-0048",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0048",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 1717.41,
+        "code": "COD-048"
+      }
+    },
+    {
+      "sourceKey": "LAN-0049",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0049",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2772.36,
+        "code": "COD-049"
+      }
+    },
+    {
+      "sourceKey": "LAN-0050",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0050",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4734.67,
+        "code": "COD-050"
+      }
+    },
+    {
+      "sourceKey": "LAN-0051",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0051",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3962.02,
+        "code": "COD-051"
+      }
+    },
+    {
+      "sourceKey": "LAN-0052",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0052",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3160.18,
+        "code": "COD-052"
+      }
+    },
+    {
+      "sourceKey": "LAN-0053",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0053",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3578.66,
+        "code": "COD-053"
+      }
+    },
+    {
+      "sourceKey": "LAN-0054",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0054",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 5129.31,
+        "code": "COD-054"
+      }
+    },
+    {
+      "sourceKey": "LAN-0055",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0055",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2727.48,
+        "code": "COD-055"
+      }
+    },
+    {
+      "sourceKey": "LAN-0056",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0056",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3459.21,
+        "code": "COD-056"
+      }
+    },
+    {
+      "sourceKey": "LAN-0057",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0057",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3435.27,
+        "code": "COD-057"
+      }
+    },
+    {
+      "sourceKey": "LAN-0058",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "ERRO"
+      ],
+      "message": "Código obrigatório ausente na origem fictícia",
+      "payload": null
+    },
+    {
+      "sourceKey": "LAN-0059",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0059",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4498.3,
+        "code": "COD-059"
+      }
+    },
+    {
+      "sourceKey": "LAN-0060",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0060",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3669.89,
+        "code": "COD-060"
+      }
+    },
+    {
+      "sourceKey": "LAN-0061",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0061",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1556.31,
+        "code": "COD-061"
+      }
+    },
+    {
+      "sourceKey": "LAN-0062",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0062",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4675.89,
+        "code": "COD-062"
+      }
+    },
+    {
+      "sourceKey": "LAN-0063",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0063",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3210.4,
+        "code": "COD-063"
+      }
+    },
+    {
+      "sourceKey": "LAN-0064",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0064",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1677.98,
+        "code": "COD-064"
+      }
+    },
+    {
+      "sourceKey": "LAN-0065",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0065",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4514.56,
+        "code": "COD-065"
+      }
+    },
+    {
+      "sourceKey": "LAN-0066",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0066",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 2539.33,
+        "code": "COD-066"
+      }
+    },
+    {
+      "sourceKey": "LAN-0067",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0067",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2194.52,
+        "code": "COD-067"
+      }
+    },
+    {
+      "sourceKey": "LAN-0068",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0068",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 2359.8,
+        "code": "COD-068"
+      }
+    },
+    {
+      "sourceKey": "LAN-0069",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "LAN-0069",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4912.61,
+        "code": "COD-069"
+      }
+    },
+    {
+      "sourceKey": "LAN-0070",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0070",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 4457.16,
+        "code": "COD-070"
+      }
+    },
+    {
+      "sourceKey": "LAN-0071",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0071",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 2988.24,
+        "code": "COD-071"
+      }
+    },
+    {
+      "sourceKey": "LAN-0072",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0072",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 1680.95,
+        "code": "COD-072"
+      }
+    },
+    {
+      "sourceKey": "LAN-0073",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0073",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2685.75,
+        "code": "COD-073"
+      }
+    },
+    {
+      "sourceKey": "LAN-0074",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0074",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4782.1,
+        "code": "COD-074"
+      }
+    },
+    {
+      "sourceKey": "LAN-0075",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0075",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 5309.26,
+        "code": "COD-075"
+      }
+    },
+    {
+      "sourceKey": "LAN-0076",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0076",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 5334.3,
+        "code": "COD-076"
+      }
+    },
+    {
+      "sourceKey": "LAN-0077",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0077",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1394.66,
+        "code": "COD-077"
+      }
+    },
+    {
+      "sourceKey": "LAN-0078",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0078",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3757.3,
+        "code": "COD-078"
+      }
+    },
+    {
+      "sourceKey": "LAN-0079",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0079",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 4361.65,
+        "code": "COD-079"
+      }
+    },
+    {
+      "sourceKey": "LAN-0080",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0080",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1057.07,
+        "code": "COD-080"
+      }
+    },
+    {
+      "sourceKey": "LAN-0081",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0081",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3792.81,
+        "code": "COD-081"
+      }
+    },
+    {
+      "sourceKey": "LAN-0082",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0082",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3775.63,
+        "code": "COD-082"
+      }
+    },
+    {
+      "sourceKey": "LAN-0083",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0083",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4231.68,
+        "code": "COD-083"
+      }
+    },
+    {
+      "sourceKey": "LAN-0084",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0084",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3520.85,
+        "code": "COD-084"
+      }
+    },
+    {
+      "sourceKey": "LAN-0085",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0085",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3669.07,
+        "code": "COD-085"
+      }
+    },
+    {
+      "sourceKey": "LAN-0086",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0086",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 2201.94,
+        "code": "COD-086"
+      }
+    },
+    {
+      "sourceKey": "LAN-0087",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "ERRO"
+      ],
+      "message": "Código obrigatório ausente na origem fictícia",
+      "payload": null
+    },
+    {
+      "sourceKey": "LAN-0088",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0088",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1089.85,
+        "code": "COD-088"
+      }
+    },
+    {
+      "sourceKey": "LAN-0089",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0089",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 4299.55,
+        "code": "COD-089"
+      }
+    },
+    {
+      "sourceKey": "LAN-0090",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0090",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 906.38,
+        "code": "COD-090"
+      }
+    },
+    {
+      "sourceKey": "LAN-0091",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0091",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2379.48,
+        "code": "COD-091"
+      }
+    },
+    {
+      "sourceKey": "LAN-0092",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "LAN-0092",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1339.93,
+        "code": "COD-092"
+      }
+    },
+    {
+      "sourceKey": "LAN-0093",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0093",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4632.99,
+        "code": "COD-093"
+      }
+    },
+    {
+      "sourceKey": "LAN-0094",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0094",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3319.11,
+        "code": "COD-094"
+      }
+    },
+    {
+      "sourceKey": "LAN-0095",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0095",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 2469.91,
+        "code": "COD-095"
+      }
+    },
+    {
+      "sourceKey": "LAN-0096",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0096",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 5059.62,
+        "code": "COD-096"
+      }
+    },
+    {
+      "sourceKey": "LAN-0097",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0097",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 1303.18,
+        "code": "COD-097"
+      }
+    },
+    {
+      "sourceKey": "LAN-0098",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0098",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 2066.77,
+        "code": "COD-098"
+      }
+    },
+    {
+      "sourceKey": "LAN-0099",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0099",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4512.39,
+        "code": "COD-099"
+      }
+    },
+    {
+      "sourceKey": "LAN-0100",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0100",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3563.5,
+        "code": "COD-100"
+      }
+    },
+    {
+      "sourceKey": "LAN-0101",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0101",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 5538.81,
+        "code": "COD-101"
+      }
+    },
+    {
+      "sourceKey": "LAN-0102",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0102",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 2824.0,
+        "code": "COD-102"
+      }
+    },
+    {
+      "sourceKey": "LAN-0103",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0103",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3460.57,
+        "code": "COD-103"
+      }
+    },
+    {
+      "sourceKey": "LAN-0104",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0104",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1036.47,
+        "code": "COD-104"
+      }
+    },
+    {
+      "sourceKey": "LAN-0105",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0105",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 1017.83,
+        "code": "COD-105"
+      }
+    },
+    {
+      "sourceKey": "LAN-0106",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0106",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 3410.85,
+        "code": "COD-106"
+      }
+    },
+    {
+      "sourceKey": "LAN-0107",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0107",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 2034.96,
+        "code": "COD-107"
+      }
+    },
+    {
+      "sourceKey": "LAN-0108",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0108",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 2292.88,
+        "code": "COD-108"
+      }
+    },
+    {
+      "sourceKey": "LAN-0109",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0109",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 4784.08,
+        "code": "COD-109"
+      }
+    },
+    {
+      "sourceKey": "LAN-0110",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0110",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3060.85,
+        "code": "COD-110"
+      }
+    },
+    {
+      "sourceKey": "LAN-0111",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0111",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4516.9,
+        "code": "COD-111"
+      }
+    },
+    {
+      "sourceKey": "LAN-0112",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0112",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 5497.71,
+        "code": "COD-112"
+      }
+    },
+    {
+      "sourceKey": "LAN-0113",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0113",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 1648.63,
+        "code": "COD-113"
+      }
+    },
+    {
+      "sourceKey": "LAN-0114",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0114",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 5100.49,
+        "code": "COD-114"
+      }
+    },
+    {
+      "sourceKey": "LAN-0115",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou o registro para revisão",
+      "payload": {
+        "externalKey": "LAN-0115",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 2568.32,
+        "code": "COD-115"
+      }
+    },
+    {
+      "sourceKey": "LAN-0116",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "ERRO"
+      ],
+      "message": "Código obrigatório ausente na origem fictícia",
+      "payload": null
+    },
+    {
+      "sourceKey": "LAN-0117",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0117",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 4362.76,
+        "code": "COD-117"
+      }
+    },
+    {
+      "sourceKey": "LAN-0118",
+      "entity": "Lançamento",
+      "unit": "Unidade Horizonte",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0118",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Horizonte",
+        "amount": 5303.68,
+        "code": "COD-118"
+      }
+    },
+    {
+      "sourceKey": "LAN-0119",
+      "entity": "Lançamento",
+      "unit": "Unidade Vale",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0119",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Vale",
+        "amount": 3663.34,
+        "code": "COD-119"
+      }
+    },
+    {
+      "sourceKey": "LAN-0120",
+      "entity": "Lançamento",
+      "unit": "Unidade Aurora",
+      "status": "EXECUTADO",
+      "history": [
+        "EXTRAIDO",
+        "VALIDADO",
+        "PENDENTE",
+        "ENVIADO",
+        "EXECUTADO"
+      ],
+      "message": "Aceito pelo destino simulado",
+      "payload": {
+        "externalKey": "LAN-0120",
+        "category": "Lançamento",
+        "referencePeriod": "2026-09",
+        "organizationalUnit": "Unidade Aurora",
+        "amount": 3172.61,
+        "code": "COD-120"
+      }
+    }
+  ]
+}
