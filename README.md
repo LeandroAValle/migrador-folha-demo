@@ -9,6 +9,12 @@
 
 > Implementação pública e independente. Não contém código, dados, configurações ou credenciais do migrador privado. O destino é um **simulador offline**, sem integração com a API real da Betha.
 
+## Finalidade
+
+O Migrador de Folha apoia equipes de folha, implantação e dados na transferência de registros entre sistemas legados e um sistema de destino. O processo valida e transforma cada registro, acompanha a resposta do destino e reconcilia os resultados.
+
+**Problema que resolve:** torna visíveis registros inválidos, rejeitados ou ainda não conciliados, para que a equipe possa corrigir e conferir a migração. O simulador deste repositório usa dados fictícios e não se conecta à Betha.
+
 ## Em 30 segundos
 
 O projeto executa uma migração de folha totalmente fictícia em Python: gera registros de origem, valida campos, transforma payloads genéricos, recebe respostas simuladas por registro e reconcilia o resultado. A página publicada apresenta o estudo de caso; o simulador pode ser executado localmente.
