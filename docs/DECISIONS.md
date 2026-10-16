@@ -3,7 +3,7 @@
 | Decisão | Motivo | Consequência |
 | --- | --- | --- |
 | Criar repositório novo e independente | O original contém credenciais e regras operacionais | Histórico e código privados permanecem privados |
-| Usar somente biblioteca padrão Python | Facilitar reprodução pelo recrutador | Interface lê arquivo estático, sem serviço hospedado |
+| Usar GitHub Pages como estudo de caso | Mostrar somente identidade e conteúdo que representam o projeto original | Simulador interativo fica local e claramente separado |
 | Gerar dados com semente fixa | Permitir revisão e testes consistentes | A amostra não representa uma folha real |
 | Simular respostas por registro | Expor o tratamento de sucesso e erro | Não comprova compatibilidade com API externa |
 | Bloquear inválidos antes do payload | Tornar falha de qualidade visível | Registro inválido permanece em `ERRO` |

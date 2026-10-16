@@ -2,16 +2,16 @@
 
 **Da origem legada ao destino simulado, cada registro tem uma trilha verificável.**
 
-[![Abrir demonstração](https://img.shields.io/badge/Explorar-demo%20ao%20vivo-b2ec74?style=for-the-badge&labelColor=12293f)](https://leandroavalle.github.io/migrador-folha-demo/)
+[![Estudo de caso](https://img.shields.io/badge/Ver-estudo%20de%20caso-b2ec74?style=for-the-badge&labelColor=12293f)](https://leandroavalle.github.io/migrador-folha-demo/)
 [![CI](https://github.com/LeandroAValle/migrador-folha-demo/actions/workflows/showcase.yml/badge.svg)](https://github.com/LeandroAValle/migrador-folha-demo/actions/workflows/showcase.yml)
 
-![Painel Migrador Folha Demo](docs/dashboard.png)
+> **Sobre a apresentação visual:** o aplicativo profissional é desktop e não há uma tela pública de demonstração disponível. Esta página usa o logotipo presente nos recursos locais; não inventa telas nem expõe dados reais. O simulador técnico deste repositório é uma implementação independente de portfólio, com dados fictícios.
 
 > Implementação pública e independente. Não contém código, dados, configurações ou credenciais do migrador privado. O destino é um **simulador offline**, sem integração com a API real da Betha.
 
 ## Em 30 segundos
 
-O projeto executa uma migração de folha totalmente fictícia em Python: gera registros de origem, valida campos, transforma payloads genéricos, recebe respostas simuladas por registro e reconcilia o resultado. A interface permite inspecionar métricas, entidades e a trilha de cada chave de negócio.
+O projeto executa uma migração de folha totalmente fictícia em Python: gera registros de origem, valida campos, transforma payloads genéricos, recebe respostas simuladas por registro e reconcilia o resultado. A página publicada apresenta o estudo de caso; o simulador pode ser executado localmente.
 
 **Demonstra:** desenho de pipeline, validação antes do envio, identidade estável, processamento em lotes conceituais, tratamento explícito de erro, reconciliação, testes e documentação.
 
@@ -19,7 +19,8 @@ O projeto executa uma migração de folha totalmente fictícia em Python: gera r
 
 | Recurso | Link |
 | --- | --- |
-| Painel interativo | [Abrir demo](https://leandroavalle.github.io/migrador-folha-demo/) |
+| Estudo de caso | [Abrir página](https://leandroavalle.github.io/migrador-folha-demo/) |
+| Simulador offline | [Executar localmente](#execute-localmente) |
 | Arquitetura | [Fluxo e limites](docs/ARCHITECTURE.md) |
 | Decisões | [Motivos e consequências](docs/DECISIONS.md) |
 | Dados | [Dicionário e métricas](docs/DATA.md) |
